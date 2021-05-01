@@ -1,0 +1,28 @@
+.todo-item {
+  height: auto;
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .container {
+    .title {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    .desc {
+      font-size: 1em;
+    }
+  }
+
+  .delete-btn {
+    font-size: 3em;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
